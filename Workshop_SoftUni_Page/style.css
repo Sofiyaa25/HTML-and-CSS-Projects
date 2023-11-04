@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@300&family=Montserrat:wght@100&family=Work+Sans:wght@100&display=swap');
+body section, div{
+    padding-left: 80px;
+}
+
+
+nav, h2, h4{
+    font-family: 'Montserrat';
+}
+
+body{
+    font-family: 'Roboto';font-size: 22px;
+}
+
+/*Header and nav styling*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 8px #ddd;
+}
+
+
+header .nav{
+    margin-left: 29%;
+    margin-right: 1%;
+}
+header .nav li{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 2px;
+   
+}
+header .nav li a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+header .login_btn{
+    all: unset;
+    background-color: rgb(153, 89, 153);
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+}
+
+.first_sec{
+    display: flex;
+    height: 320px;
+    padding-top: 30px;
+}
+.first_sec p{
+    margin-right: 20px;
+   
+}
+
+.first_sec div{
+    margin: 0;
+    padding: 0;
+}
+.first_sec_container{
+    width: 70%;
+    margin-right: 100px;
+}
+
+.first_sec p{
+    width: 100%;
+    font-size: 20px;
+}
+.first_sec h2{
+    color: rgb(97, 97, 97);
+}
+
+.secondary_info{
+    color: gray;
+}
+
+.first_sec img{
+    width: 500px;
+    height: 250px;
+    margin-top: 50px;
+    margin-right:  100px;
+    padding-left: 20px;
+}
+
+
+.second_sec{
+    background-color: rgb(24, 4, 78);
+    color: white;
+    display: flex;
+    height: 350px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.second_sec div{
+    margin: 0;
+    padding: 0;
+}
+
+
+.second_sec img{
+    margin-right: 100px;
+    margin-top: 150px;
+    height: 90%;
+}
+.second_sec h2{
+    width: 80%;
+}
+
+.thrd_section{
+    display: flex;
+    height: 420px;
+    align-items: center;
+}
+.thrd_section img{
+    height: 250px;
+    margin-left: 20px;
+}
+.thrd_section p{
+    width: 95%;
+}
+.thrd_section .thrd_section_container{
+    padding-left: 10;
+}
+.thrd_section .thrd_section_container .btn{
+    all: unset;
+    color: rgb(114, 40, 114);
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    position: relative;
+    padding-bottom: 10px;
+    background-color: rgb(14, 0, 14);
+    color: white;
+    margin: auto;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+
+footer li {
+    list-style: none;
+    margin: 20px;
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul h4{
+    color: rgb(114, 40, 114);
+    font-weight: 900;
+    
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+}
+footer .all_iniciatives{
+    margin-top: -20px;
+}
+
+
+
+footer .scm_links{
+    padding-right: 60px;
+}
+
+footer .scm_links li{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: -1px;
+}
+
+
+
+footer .scm_links li a{
+font-size: 30px;
+}
+
+    
+footer .copy_rigths{
+    width: 330px;
+}
