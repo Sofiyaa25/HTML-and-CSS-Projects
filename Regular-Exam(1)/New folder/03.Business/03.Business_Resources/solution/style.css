@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@200;300;500&family=Raleway:wght@100;200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&family=Poppins:wght@200;300;500&family=Raleway:wght@100;200;300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*HEADER. NAVIGATION. HEADER INFO STYLING*/
+header{ 
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    height: 50vw;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.logo, .heading nav{
+    margin: 30px 50px;
+}
+.logo{
+    width: 120px;
+    height: 90px;
+}
+.heading nav li{
+display: inline-block;
+margin: 20px;
+}
+.heading nav li a{
+    color:  white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: PT sans;
+    font-size: 20px;
+}
+
+.heading_info{
+    color: white;
+    width: 50%;
+    font-size: 35px;
+    margin-left: 10%;
+    font-weight: 300;
+    margin-top: -10px;
+}
+.heading_info h1{
+    font-family: Pt serif;
+    width: 90%;
+}
+.heading_info p{
+    font-size: 25px;
+    font-family: PT sans;
+    font-weight: 100;
+    padding: 3px;
+    width: 70%;
+
+}
+
+/*BUSSINES AIMS AND OBJECTIVES ARTICLE STYLING*/
+
+.article_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30vw;
+    padding: 3% 10%;
+}
+.article_container article{
+    font-size: 23px;
+    word-spacing: 2px;
+    line-height: 35px;
+    margin-right: 30px;
+    font-family: PT Sans;
+    color: #463c40;
+    
+}
+
+
+.article_container article h2{
+    font-size: 60px;
+    font-family: PT serif;
+    font-weight: 100;
+}
+
+.article_container button{
+    all: unset;
+    border: 3px solid #bc9576;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+.article_container button a{
+    color: #bc9576;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*SPONSORS AND PARTNERS STYLING*/
+
+.sponsors_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vw;
+    justify-content: space-evenly;
+    padding: 2% 2%;
+}
+.sponsors_container ul{
+    margin: 0px;
+}
+.sponsors_container ul img{
+    width: 120px;
+    height: 120px;
+}
+.sponsors_container ul li{
+    display: inline-block;
+    border: 2px white;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 100%;
+    background-color: #dddddd;
+}
+.sponsors_container h2{
+    font-size: 60px;
+    font-family: PT serif;
+    color: #bc9576;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.sponsors_container p{
+    font-size: 23px;
+    width: 70%;
+    text-align: center;
+    color: #968076;
+}
+.sponsors_container .last_p{
+    margin-bottom: 100px;
+}
+.sponsors_container .Partners_title{
+    margin-top: 0;
+}
+/*Footer styling*/
+footer{
+    background-color: #171720;
+    padding: 20px;
+}
+footer .ul_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 200px;
+}
+footer .ul_container h3{
+    color:  white;
+    font-family: PT serif;
+    font-size: 25px;
+}
+footer .ul_container a{
+    color: #b3a6a8;
+    text-decoration: none;
+    font-family: PT sans;
+    text-transform: uppercase;
+}
+footer .ul_container li{
+    margin: 25px 0px;
+}
+footer hr{
+    width: 100%;
+}
+footer p{
+    color: #b3a6a8;
+    text-align: left;
+    width: 30%;
+    margin-left: 16%;
+    font-family: PT sans;
+
+}
+
